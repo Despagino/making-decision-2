@@ -26,9 +26,9 @@ var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
   Loop through the 'family' array and console.log every item.
 */
 
-// for (i = 0; i < family.length; i++) {
-//   console.log(family[i])
-// }
+for (i = 0; i < family.length; i++) {
+  console.log(family[i])
+}
 
 
 
@@ -43,13 +43,13 @@ let evensArr = []
   Use a for-loop to iterate through each number in the 'nums' array, if the number is even, append it to the 'evensArr'.
 */
 
-// for (i = 0; i < nums.length; i++) {
-//   if (nums[i] % 2 === 0) {
-//     evensArr.push(nums[i])
-//   }
-// }
+for (i = 0; i < nums.length; i++) {
+  if (nums[i] % 2 === 0) {
+    evensArr.push(nums[i])
+  }
+}
 
-// console.log(evensArr)
+console.log(evensArr)
 
 
 
@@ -64,17 +64,17 @@ var score = 74
 */
 
 
-// if (grade > 90) {
-//   console.log('A')
-// } else if (grade > 80 && grade < 90){
-//   console.log('B')
-// } else if (grade > 70 && grade < 80) {
-//   console.log('C')
-// } else if (grade > 60 && grade < 70) {
-//   console.log('D')
-// } else {
-//   console.log('F')
-// }
+if (grade > 90) {
+  console.log('A')
+} else if (grade > 80 && grade < 90){
+  console.log('B')
+} else if (grade > 70 && grade < 80) {
+  console.log('C')
+} else if (grade > 60 && grade < 70) {
+  console.log('D')
+} else {
+  console.log('F')
+}
 
 
 ////////// Intermediate Problems //////////
@@ -90,7 +90,7 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
 */
 
 let someNum = myFavoriteNumbers[5]
-// console.log(someNum)
+console.log(someNum)
 
 
 ////////// PROBLEM 7 //////////
@@ -101,12 +101,12 @@ let someNum = myFavoriteNumbers[5]
 //Code Here
 
 
-// if (myFavoriteNumbers.length < 7) {
-//   console.log('There are not enough elements in this array')
-// }  else if (myFavoriteNumbers.length > 7) {
-//   someNum = myFavoriteNumbers[6]
-//   console.log(someNum)
-// }
+if (myFavoriteNumbers.length < 7) {
+  console.log('There are not enough elements in this array')
+}  else if (myFavoriteNumbers.length > 7) {
+  someNum = myFavoriteNumbers[6]
+  console.log(someNum)
+}
 
 // Do not edit the code below.
 var listOfNumbers = [1,2,3,4,5,6,7,8,9,10,11,12];
@@ -115,11 +115,11 @@ var listOfNumbers = [1,2,3,4,5,6,7,8,9,10,11,12];
 // Use a for-loop to iterate through 'listOfNumbers', checking to see if each number is divisible by 3. If it is, console.log '{number} is divisible by 3.'
 
 
-// for (i = 0; i < listOfNumbers.length; i++) {
-//   if (listOfNumbers[i] % 3 === 0) {
-//     console.log(`${listOfNumbers[i]} is divisible by 3.`)
-//   }
-// }
+for (i = 0; i < listOfNumbers.length; i++) {
+  if (listOfNumbers[i] % 3 === 0) {
+    console.log(`${listOfNumbers[i]} is divisible by 3.`)
+  }
+}
 
 ////////// PROBLEM 9 //////////
 // Do not edit the code below.
@@ -130,9 +130,9 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
   Loop backwards, starting at the end of the 'letters' array. Console log every item in the array.
 */
 
-// for (i = letters.length -1; i >= 0; i--) {
-//   console.log(letters[i])
-// }
+for (i = letters.length -1; i >= 0; i--) {
+  console.log(letters[i])
+}
 
 
 ////////// Advanced Problems //////////
@@ -154,26 +154,26 @@ If F: "The student is failing."
 If the letter grade is not one of the above letters, console.log 'Not an eligible grade.'
 */
 
-// switch (letterGrade) {
-//   case "A":
-//     console.log("The student is doing excellently.")
-//     break;
-//   case "B": 
-//   console.log("The student is doing well")
-//   break;
-//   case "C":
-//     console.log("The student is doing alright")
-//     break;
-//   case "D":
-//       console.log("The student is not doing very well")
-//       break;
-//   case "D":
-//         console.log("The student is failing")
-//         break;
-//   default:
-//     console.log("Not an eligible grade.")      
+switch (letterGrade) {
+  case "A":
+    console.log("The student is doing excellently.")
+    break;
+  case "B": 
+  console.log("The student is doing well")
+  break;
+  case "C":
+    console.log("The student is doing alright")
+    break;
+  case "D":
+      console.log("The student is not doing very well")
+      break;
+  case "D":
+        console.log("The student is failing")
+        break;
+  default:
+    console.log("Not an eligible grade.")      
 
-// } 
+} 
 
 
 
@@ -201,16 +201,16 @@ If the letter grade is not one of the above letters, console.log 'Not an eligibl
   ...
 */
 
-// for (i = 1; i <= 100; i++) {
+for (i = 1; i <= 100; i++) {
 
-// if (i % 3 === 0 && i % 5 === 0) {
-//   console.log("Devmountain")
-// } else if (i % 3 === 0) {
-//   console.log("Dev")
-// } else if (i % 5 === 0) {
-//   console.log("Mountain")
-// } else {
-//   console.log(i)
-// }
+if (i % 3 === 0 && i % 5 === 0) {
+  console.log("Devmountain")
+} else if (i % 3 === 0) {
+  console.log("Dev")
+} else if (i % 5 === 0) {
+  console.log("Mountain")
+} else {
+  console.log(i)
+}
 
-// }
+}
